@@ -1,0 +1,493 @@
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {height: 100%}
+
+
+h3, h2 {
+	font: 700 22px 'Raleway', Arial, Sans-Serif;
+}
+
+
+.encabezado{
+	width: 100%;
+	height: 147px;
+	position: fixed;
+	top: 0px;
+	z-index: 10
+}
+
+.top {
+	width: 100%;
+	height: 120px;
+	background-color: #414042;
+}
+
+.name {
+	max-width: 900px;
+	height: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #414042;
+	padding-top: 25px;
+}
+
+.titulo {
+	padding-left: 20px;
+}
+
+.navegador {
+	width: 100%;
+	height: 27px;
+	background-color: #D1D3D4;
+}
+
+
+
+nav {
+	height: 27px;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+nav ul li a{
+	display: block;
+	max-width: 900px;
+	height: 27px;
+	background-color: #D1D3D4;
+	text-decoration: none;
+	color: #58595B;
+	line-height: 27px;
+	padding-left: 20px;
+
+}
+
+
+.menu {
+ width: 100%;
+ height: 27px;
+ font: 700 18px 'Raleway', Arial, Sans-Serif;
+}
+
+.menulist {
+	display: none;
+	font: 400 14px 'Raleway', Arial, Sans-Serif;
+}
+
+.menu:hover .menulist{
+	display: inline;
+}
+
+header nav ul li a:hover{
+	background-color: #aaa
+}
+
+.menuboton:hover{
+	background-color: #D1D3D4;
+}
+
+.menuitem{
+	width: 20%;
+	float: left;
+}
+
+
+
+
+
+
+
+.wrapper {
+	width: 100%;
+	height: 230px;
+	background-color: #E6E7E8;
+	margin-top: 147px;	
+}
+
+.box900{
+	max-width: 900px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.foto{
+	width: 230px;
+	height: 230px;
+	background-image: url("FOTOYO.jpg");
+	background-size: cover;
+	margin-right: 20px;
+	float: left;
+}
+
+
+.info {
+	max-width: 100%;
+	min-width: 660px;
+	height: 230px;
+	background-color: #222;
+	padding-top: 25px;
+	font: 400 16px 'Raleway', Arial, Sans-Serif; 
+	color: #fff
+}
+
+.negritainfo {
+	display: inline;
+	font: 700 16px 'Raleway', Arial, Sans-Serif;
+}
+
+
+
+
+.wrapper2 {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right:auto;
+	padding-left: 20px;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+
+.perfil {
+	max-width: 100%;
+	min-width: 640px;
+	margin-top: 10px;
+	padding-top: 15px;
+	border-top: solid 1px;
+	font: 200 16px 'Raleway', Arial, Sans-Serif;
+	line-height: 22px;
+}
+
+
+.wrapper3 {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right:auto;
+	padding-left: 20px;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+}
+
+.estudiosbox {
+	max-width: 100%;
+	min-width: 440px;
+	margin-top: 10px;
+	padding-top: 15px;
+	border-top: solid 1px;
+	font: 200 12px 'Raleway', Arial, Sans-Serif;
+	line-height: 14px;
+}
+
+.estudiositems{
+	float: left;
+	width: 25%;
+	margin-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+
+
+.trabajo{
+	float: left;
+	width: 25%;
+	margin-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	clear: left
+}
+
+.descripciondetrabajo{
+	width: 75%;
+	float: left;
+	margin-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	line-height: 16px;
+}
+
+
+.wrapper4 {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right:auto;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+.docenciaitems{
+	float: left;
+	width: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+
+
+footer {
+	width: 100%;
+	height: 80px;
+	background-color: #414042;
+	clear: both;
+}
+
+
+.infofooter {
+	max-width: 900px;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	color: #FFF;
+	padding-top: 30px;
+	background-color: #414042;
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+.perfil {
+	max-width: 100%;
+	min-width: 500px;
+	margin-top: 10px;
+	padding-top: 15px;
+	border-top: solid 1px;
+	font: 200 16px 'Raleway', Arial, Sans-Serif;
+	line-height: 22px;
+}
+.wrapper {
+	width: 100%;
+	height: 150px;
+	margin-top: 147px;	
+}
+.box900{
+	max-width: 768px;
+	height: 100%;
+}
+.foto{
+	width: 150px;
+	height: 150px;
+	margin-right: 20px;
+	float: left;
+}
+.info {
+	max-width: 100%;
+	min-width: 540px;
+	height: 150px;
+	background-color: #222;
+	padding-top: 15px;
+	font: 400 12px 'Raleway', Arial, Sans-Serif; 
+	color: #fff
+}
+.negritainfo {
+	display: inline;
+	font: 700 12px 'Raleway', Arial, Sans-Serif;
+}
+h2 {
+	font: 700 14px 'Raleway', Arial, Sans-Serif;
+}
+.estudiosbox {
+	max-width: 100%;
+	min-width: 500px;
+}
+.infofooter {
+	min-width: 540px;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 535px){
+.navegador {
+	width: 100%;
+	min-width: 100%;
+	height: 27px;
+	background-color: #D1D3D4;
+}
+.menuitem{
+	width: 100%;
+	float: left;
+}
+nav ul li ul li a{
+	height: 30px;
+}	
+#slider {
+	min-width: 535px;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 320px){
+
+
+#slider{
+	min-width: 100%;
+}
+
+.wrapper {
+	width: 100%;
+	height: 320px;
+}
+
+.box900{
+	max-width: 320px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.foto{
+	width: 320px;
+	height: 320px;
+}
+
+.info {
+	min-width: 320px;
+	height: 230px;
+	background-color: #222;
+	padding-top: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font: 400 14px 'Raleway', Arial, Sans-Serif; 
+	color: #fff;
+	clear: both;
+}
+
+.negritainfo {
+	display: inline;
+	font: 700 16px 'Raleway', Arial, Sans-Serif;
+}
+
+.wrapper2 {
+	min-width: 320px;
+	margin-left: auto;
+	margin-right:auto;
+	padding-left: 20px;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin-top: 230px;
+}
+
+.perfil {
+	max-width: 320px;
+	min-width: 100%;
+	margin-top: 10px;
+	padding-top: 15px;
+	border-top: solid 1px;
+	font: 200 14px 'Raleway', Arial, Sans-Serif;
+	line-height: 22px;
+}
+
+.wrapper3 {
+	min-width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+}
+
+.estudiosbox {
+	max-width: 320px;
+	min-width: 100%;
+	margin-top: 10px;
+	padding-top: 15px;
+	border-top: solid 1px;
+	font: 200 12px 'Raleway', Arial, Sans-Serif;
+	line-height: 14px;
+}
+
+.estudiositems{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+
+.trabajo{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	clear: left
+}
+
+.descripciondetrabajo{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	line-height: 16px;
+}
+
+
+.wrapper4 {
+	max-width: 320px;
+	margin-left: auto;
+	margin-right:auto;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+.docenciaitems{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+
+footer {
+	width: 100%;
+	height: 80px;
+}
+
+.infofooter {
+	min-width: 320px;
+	height: 100%;
+	padding: 20px;
+	color: #FFF;
+	padding-top: 25px;
+}
+
+.negritainfo {
+	display: inline;
+	font: 700 12px 'Raleway', Arial, Sans-Serif;
+}
+
+h2 {
+	font: 700 14px 'Raleway', Arial, Sans-Serif;
+}
+
+}
