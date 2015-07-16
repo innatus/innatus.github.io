@@ -1,0 +1,806 @@
+/* Begin Tablet Responsive */
+
+@media screen and (max-width:790px) {
+	nav {
+	text-transform: uppercase;
+	position: absolute;
+	margin-top: 0px;
+	width: 100%;
+	height: 75px;
+	text-align: right;
+	line-height: 60px;
+	margin-right: -10px;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.96);
+	box-shadow: 0px 1px 1px #D3D3D3;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+em, i {
+	font-style: italic;
+}
+
+html, body {
+	height: 100%;
+}
+
+.logo {
+	padding: 7px;
+	margin-left: 10px;
+	opacity: 0.90;
+}
+
+body {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 16px;
+	background-color: rgb(226, 226, 226);
+	margin: 0px;
+	width: 100%
+}
+
+.navicon{
+	margin-bottom: -5px; 
+}
+
+.anchor{
+	display:block;
+	height:0px; /* this is the height of your header */
+	margin-top:-0px; /* this is again negative value of the height of your header */
+	visibility:hidden;
+}
+
+.imgintro{
+	margin-left: 205px;
+	margin-right: 214px;
+	margin-top: 110px;
+}
+
+h2 {
+	max-width: 500px;
+	position: center;
+}
+
+.slideshow {
+	width: 100%;
+	height: 40%;
+}
+
+.wrapper {
+	min-height: 100%;
+	max-width: 1200px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -75px;
+	background-color: white;
+	/*background-image: url("https://dl.dropboxusercontent.com/u/49771458/Web/geometry-40.png");*/
+	/*background-repeat: repeat;*/
+}
+
+.divabout{
+	width: 100%;
+	max-width: 620px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+.wrapperportfolio{
+	width: 500px;
+	position: center;
+	margin-right: 134px;
+	margin-left: 134px;
+	margin-bottom: 1800px;
+}
+
+.proyecto{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	height: 190px;
+	padding: 10px;
+	background-color: rgb(239, 239, 239);
+	margin-bottom: 6px;
+	border-radius: 6px;
+}
+
+.proyecto-der{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	height: 190px;
+	padding: 10px;
+	background-color: rgb(239, 239, 239);
+	margin-bottom: 6px;
+	border-radius: 6px;
+}
+
+.p-proyecto{
+	margin-top: 20px;
+	margin-right: 15px;
+	line-height: 17px;
+}
+
+.imgproyecto{
+	float: left;
+	width: 202px;
+	height: 158px;
+	padding: 5px;
+	margin-right: 12px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.hr-proyectos {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	width: auto;
+	margin-right: 20px;
+	margin-top: -8px;
+}
+
+.table-estudios{
+	background-color: white;
+	height: 250px;
+	width: 100%;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	line-height: 24px;
+	border-top: 1px solid rgb(223, 221, 221);
+	padding: 5px;
+}
+
+.software-table{
+	margin-right: auto;
+	margin-left: auto;
+	width: 660px;
+}
+
+.software-icon{
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.li-soft-der{
+	margin-bottom: 0px;
+}
+
+.li-soft{
+	margin-bottom: 20px;
+}
+
+.td-software{
+	text-align: center;
+	padding: 15px;
+	line-height: 25px;
+}
+
+.contenedor-soft{
+	margin-top: 20px;
+	margin-bottom: 5px;
+	width: 100%;
+	max-width: 1200px;
+	background-color: rgb(239, 239, 239);
+	padding-top: 1px;
+	padding-bottom: 25px;
+}
+
+.imgcontacto{
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+.p-contacto{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	margin-right: 94px;
+	margin-left: 0px;
+	width: 700px;
+}
+
+.items-redes{
+	margin-left: 116px;
+}
+
+
+.contenidocontacto {
+	margin-top: 10px;
+	margin-left: 27px;
+	margin-right: 27px;
+	width: 100%;
+}
+
+.contenedor-contacto{
+	margin-top: 20px;
+	width: 100%;
+	background-color: rgb(239, 239, 239);
+	padding-top: 1px;
+	padding-bottom: 20px;
+}
+
+.redessociales{
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.contenedorredessociales{
+	margin-left: 14px;
+	margin-bottom: 60px;
+}
+
+.button-volver{
+	width: 130px;
+	margin-left: 50px;
+	margin-top: 18px;
+	padding: 10px;
+	border-radius: 5px;
+	float: left;
+	box-shadow: none;
+}
+
+.divisorfooter {
+	width: 256px;
+	height: 75px;
+	float: left;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Tablet Responsive */
+/*
+@media screen and (max-width:480px) {
+	h3{
+	margin-left: 30px;
+	}
+
+	nav {
+	font-size: 0px;
+	text-transform: uppercase;
+	position: fixed;
+	margin-top: 0px;
+	width: 480px;
+	height: 75px;
+	text-align: right;
+	line-height: 60px;
+	margin-right: -10px;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.96);
+	box-shadow: 0px 1px 1px #D3D3D3;
+}
+
+	hr{
+	width: 100%;
+}
+
+.ulnavbar {
+	list-style-type: none;
+	margin-left: 10px;
+	line-height: 88px;
+}
+
+.imgintro{
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 110px;
+}
+
+.divabout{
+	width: 100%;
+	max-width: 390px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-top: 40px;
+	font-weight: 500;
+}
+
+.imgbullet{
+	margin-right: 15px;
+	margin-bottom: 50px;
+	float: left;
+	height: 65px;
+	width: 65px;
+}
+
+.navwrapper{
+	width: 480px;
+	max-width: 1200px;
+}
+
+.wrapperportfolio{
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 2650px;
+}
+
+.wrapperportfolio a{
+	margin-left: 190px;
+	margin-right: 0px;
+	max-height: 0px;
+	text-align: center;
+}
+
+.proyecto, .proyecto-der{
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 50px;
+	width: 100%;
+	max-width: 1200px;
+	height: 320px;
+	padding: 0px;
+	background-color: rgb(239, 239, 239);
+	margin-bottom: 6px;
+	border-radius: 0px;
+}
+
+.p-proyecto{
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-left: 15px;
+	text-align: center;
+	line-height: 17px;
+}
+
+.imgproyecto{
+	width: 220px;
+	height: 158px;
+	padding: 5px;
+	margin-right: 120px;
+	margin-top: 10px;
+	margin-left: 120px;
+}
+
+.hr-proyectos {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	width: 100%;
+	margin-top: -8px;
+}
+
+.items-redes{
+	margin-left: 106px;
+	width: 340px;
+}
+
+.item-contenedor-soft{
+	width: 150px;
+	margin-left: 190px;
+	margin-right: auto;
+}
+
+.contenedor-soft{
+	margin-top: 20px;
+	width: 100%;
+	max-width: 1200px;
+	background-color: rgb(239, 239, 239);
+	height: 500px;
+	overflow: scroll;
+}
+
+.exp-laboral{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	width: 390px;
+}
+
+.contenedor-contacto{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	width: 100%;
+	background-color: rgb(239, 239, 239);
+	padding-top: 1px;
+	height: 380px;
+}
+
+.p-contacto{
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	width: 430px;
+}
+
+.contenidocontacto {
+	margin-top: -10px;
+	margin-left: 23px;
+	margin-right: 0px;
+	width: 360px;
+}
+
+.button-volver{
+	width: 130px;
+	margin-left: 78px;
+	margin-top: 18px;
+	padding: 10px;
+	border-radius: 5px;
+	float: left;
+	box-shadow: none;
+}
+
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Begin Cell Responsive */
+
+@media screen and (max-width:360px) {
+	nav {
+	font-size: 0px;
+	text-transform: uppercase;
+	position: fixed;
+	margin-top: 0px;
+	width: 100%;
+	height: 75px;
+	text-align: right;
+	line-height: 60px;
+	margin-right: -10px;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.96);
+	box-shadow: 0px 1px 1px #D3D3D3;
+}
+
+nav a{
+	display: inline;
+}
+
+.wrapper {
+	min-height: 100%;
+	max-width: 1200px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -75px;
+	background-color: white;
+	/*background-image: url("https://dl.dropboxusercontent.com/u/49771458/Web/geometry-40.png");*/
+	/*background-repeat: repeat;*/
+}
+
+.logo {
+	padding: 7px;
+	margin-left: 10px;
+	opacity: 0.90;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+em, i {
+	font-style: italic;
+}
+
+hr{
+	width: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 16px;
+	background-color: rgb(226, 226, 226);
+	margin: 0px;
+	width: 100%
+}
+
+.navicon{
+	margin-bottom: -28px;
+	margin-right: -16px;
+	padding: 0px; 
+}
+
+.navicon-middle{
+	margin-left: 8px; 
+}
+
+.anchor{
+	display:block;
+	height:0px; /* this is the height of your header */
+	margin-top:-0px; /* this is again negative value of the height of your header */
+	visibility:hidden;
+}
+
+.imgintro{
+	height: 80%;
+	width: 80%;
+	margin-left: 32px;
+	margin-right: 27px;
+	margin-top: 110px;
+}
+
+h2 {
+	max-width: 280px;
+	position: center;
+}
+
+h3 {
+	margin-left: -6px;
+}
+
+.slideshow {
+	width: 100%;
+	height: 40%;
+}
+
+.divabout{
+	width: 85%;
+	max-width: 620px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+.imgbullet{
+	margin-right: 15px;
+	margin-bottom: 140px;
+	float: left;
+	height: 65px;
+	width: 65px;
+}
+
+.wrapperportfolio{
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 2650px;
+}
+
+.proyecto, .proyecto-der{
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 50px;
+	width: 100%;
+	max-width: 1200px;
+	height: 320px;
+	padding: 0px;
+	background-color: rgb(239, 239, 239);
+	margin-bottom: 6px;
+	border-radius: 0px;
+}
+
+.p-proyecto{
+	margin-top: 0px;
+	margin-right: 8px;
+	margin-left: 8px;
+	text-align: center;
+	line-height: 17px;
+}
+
+.imgproyecto{
+	width: 220px;
+	height: 158px;
+	padding: 5px;
+	margin-right: 52px;
+	margin-top: 10px;
+	margin-left: 60px;
+}
+
+.hr-proyectos {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	width: 310px;
+	margin-right: 18px;
+	margin-top: -8px;
+}
+
+.m-link{
+	margin-left: 128px;
+}
+
+.table-estudios{
+	background-color: white;
+	height: 250px;
+	width: 100%;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	line-height: 20px;
+	border-top: 1px solid rgb(223, 221, 221);
+	padding: 5px;
+}
+
+.list-soft{
+	width: 120px;
+	margin-left: 80px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.software-icon{
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.td-software{
+	text-align: center;
+	padding: 15px;
+	line-height: 25px;
+}
+
+.item-contenedor-soft{
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contenedor-soft{
+	height: 500px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	width: 360px;
+	max-width: 1200px;
+	background-color: rgb(239, 239, 239);
+	padding-top: 1px;
+	overflow: scroll;
+}
+
+.exp-laboral{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	width: 300px;
+}
+
+.ul-laboral{
+	margin-left: 60px;
+	margin-bottom: 30px;
+}
+
+.imgcontacto{
+	margin-left: 10px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.p-contacto{
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	margin-left: -4px;
+	width: 300px;
+}
+
+.items-redes{
+	margin-left: -38px;
+}
+
+.contenidocontacto {
+	margin-top: -10px;
+	margin-left: 27px;
+	margin-right: 27px;
+	width: 300px;
+}
+
+.contenedor-contacto{
+	margin-top: 20px;
+	width: 100%;
+	background-color: rgb(239, 239, 239);
+	padding-top: 1px;
+	height: 360px;
+}
+
+.redessociales{
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline;
+}
+
+.contenedorredessociales{
+	height: 220px;
+	width: 270px;
+	margin-top: 25px;
+	margin-right: 60px;
+	margin-left: 60px;
+	margin-bottom: 40px;
+}
+
+.listadoredes{
+	margin-left: 38px;
+}
+
+.listadoredes li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+}
+
+.listadoredes a{
+	text-decoration: none;
+	margin: 0px;
+	list-style-type: none;
+	display: inline;
+}
+
+.li-margen-fb{
+	margin-left: -4px;
+}
+
+.li-margen-tw{
+	margin-left: -5px;
+}
+
+.button-volver{
+	width: 100px;
+	height: 45px;
+	line-height: 12px;
+	margin-left: 0px;
+	margin-top: 18px;
+	padding: 7px;
+	border-radius: 5px;
+	float: left;
+	box-shadow: none;
+}
+.p-footer{
+	text-align: right;
+	margin-right: 20px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	height: 0px;
+}
+
+.divisorfooter {
+	width: 120px;
+	height: 75px;
+	float: left;
+}
+
+}
+
+/* End Cell Responsive */
